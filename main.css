@@ -647,7 +647,7 @@ li{
 }
 
 
-
+/* iPhoneX */
 @media only screen and (width: 375px) and (height: 812px) {
 
     .bkgd2{
@@ -689,7 +689,7 @@ li{
     }  
 
 }
-
+/* ipad/tablets */
 @media only screen and (min-width: 768px) and (max-width: 1025px) {
     .buttonBox {
      margin-left: -3%;
@@ -766,7 +766,7 @@ li{
    
     }
 
-
+/* ipadPro */
     @media only screen and (width: 1024px) and (height: 1366px) {
 
     .buttonBox{

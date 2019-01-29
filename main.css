@@ -274,7 +274,7 @@ display: none;
 
 #spriteRun6{
     width: 35%;
-    margin-top: 121%;
+    margin-top: 114%;
     margin-left: -40%;
     position: fixed;
     z-index: 1;
@@ -649,62 +649,136 @@ li{
 
 
 
-/* @media only screen and (max-width: 800px) {
+@media only screen and (width: 375px) and (height: 812px) {
     .buttonBox {
-        margin-top: 5%;
-        margin-left: -5%;
-
+     
     }
+
    .buttonQ{
-    margin-top: 103%;
-    height: 70px;
-    width: 160px;
-    font-size: 15px; 
+ 
     }
 
     #start{
-        width: 4rem;
-        height: 4rem;
-        font-size: 15px;
-        padding: 15px 10px 0px 10px;
-        margin-left: 8.5em;
+
     }
 
     #round2{
-        width: 4rem;
-        height: 4rem;
-        font-size: 15px;
-        padding: 15px 10px 0px 10px;
-    }
-
-    i{
-        font-size: 35px;
 
     }
+    #spriteWon{
+        margin-top: 70%;
+    }
+    #spriteLose{
+        margin-top: 80%;
+    }
+
     #djk{
-        margin-left: 95%;
-        }
+    margin-top: 115%;
 
-    #spriteRun{   
-            margin-left: -12%;
     }
 
-    #spriteRun2{   
-        margin-left: 4%;
-    }
+    #spriteReady1{
+        margin-top: 107%;
 
-    #spriteRun3 {   
-        margin-left: 19%;
     }
+    
+    #spriteReady2{
+        margin-top: 107%;
 
-    #spriteRun4 {   
-        margin-left: 36%;
     }
+    
+    #spriteReady3{
+        margin-top: 107%;
 
-    #spriteRun5 {   
-        margin-left: 51%;
     }
+    
+    #spriteReady4{
+        margin-top: 107%;
 
+    }
+    
+    #spriteReady5{
+        margin-top: 107%;
+
+    }
+    
+    #spriteReady6{
+        margin-top: 107%;
+
+    }
+    
+    #spriteReady7{
+        margin-top: 107%;
+
+    }
+    
+    #spriteReady8{
+        margin-top: 107%;
+
+    }
+    
+    #spriteReady9{
+        margin-top: 107%;
+
+    }
+    
+    #spriteReady10{
+        margin-top: 107%;
+
+    }
+    
+    #spriteRun{
+        margin-top: 161%;
+
+    }
+    
+    
+    #spriteRun2{
+        margin-top: 154%;
+
+    }
+    
+    #spriteRun3{
+        margin-top: 154%;
+
+    }
+    
+    #spriteRun4{
+        margin-top: 154%;
+
+    }
+    
+    #spriteRun5{
+        margin-top: 154%;
+
+    }
+    
+    #spriteRun6{
+        margin-top: 154%;
+
+    }
+    
+    
+    #spriteRun7{
+        margin-top: 154%;
+ 
+    }
+    
+    #spriteRun8{
+        margin-top: 154%;
+
+    }
+    
+    #spriteRun9{
+        margin-top: 154%;
+
+    }
+    
+    #spriteRun10{
+        margin-top: 154%;
+
+    }
 }
 
- */
+
+

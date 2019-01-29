@@ -620,7 +620,7 @@ submitQ9.addEventListener('click', function () {
 })
 
 submitQ10.addEventListener('click', function () {
-    if (answer10.value === "Public Enemy" || answer10.value === "public enemy" || answer10.value === "PUBLIC ENEMY" && lives >= 3) {
+    if (answer10.value === "Public Enemy" || answer10.value === "public enemy" || answer10.value === "PUBLIC ENEMY") {
         score += 1000;
         lives += 1;
 
@@ -647,7 +647,7 @@ submitQ10.addEventListener('click', function () {
 
   
     
-    else if (lives < 3) {
+    }else if (lives < 3) {
         document.getElementById('lives').innerHTML = "You Lose!"
         document.getElementById('theyDontWant').play();
         document.querySelector('#spriteLose').style.display = 'block';
@@ -659,5 +659,5 @@ submitQ10.addEventListener('click', function () {
     }
     }
 
-})
+)
 

@@ -634,10 +634,9 @@ li{
 .swal-text{
     font-size: 20px;
     text-align: center;
-    /* text-shadow: 1px 1px 1px black; */
 }
 .swal-modal{
-    width: 500px;
+    width: 100vw;
     margin-top: 1%;;
     border: 5px inset #D1B464;
     border-radius: 10px;
@@ -646,6 +645,18 @@ li{
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);    
 }
 
+.swal-button--confirm{
+    display: none;
+}
+.swal-button{
+    font-size: 30px;
+    width: 20vw;
+    border-radius: 15px;
+    background-color: #D1B464;
+    border: 5px inset #D1B464;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
 
 /* iPhoneX */
 @media only screen and (width: 375px) and (height: 812px) {
@@ -703,6 +714,10 @@ li{
 }
 #scoreBox{
     margin-left: 70%;
+}
+
+.swal-text{
+font-size: 30px;
 }
 
 .optButton{
@@ -780,6 +795,11 @@ li{
     .buttonQ, input, button{
         font-size: 40px;
     }
+
+    .swal-text{
+        font-size: 40px;
+        }
+
     #start, #round2{
         margin-top: 40%;
         margin-left: 40%;

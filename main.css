@@ -20,7 +20,7 @@
     z-index: -100;
     width: 250vw;
     height: 100vh;
-    margin-left: -280px;
+    margin-left: -350px;
     margin-top: -10px;
     display: none;
     animation: slide-in-blurred-top 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -457,9 +457,9 @@ button{
         display: block;
         justify-content: center;
         padding: 10px;
-        width: 100vw;
+        width: 101vw;
         margin-top: 40%;
-        margin-left: -6%;
+        margin-left: -5%;
         position: fixed;
         z-index: 1;
         /* animation: fade-in 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
@@ -657,6 +657,9 @@ li{
    .buttonQ{
  
     }
+    .bkgd2{
+        margin-left: -450px;
+    }
 
     #start{
 
@@ -673,7 +676,7 @@ li{
     }
 
     #djk{
-    margin-top: 115%;
+    margin-top: 130%;
 
     }
 

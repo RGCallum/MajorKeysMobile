@@ -2,22 +2,26 @@
 
 .bkgd1{
     background-image: url(./Images/BKGDS/sesame3.jpg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
     z-index: -100;
-    width: 100vw;
+    width: 250vw;
     height: 100vh;
+    margin-left: -280px;
+    margin-top: -10px;
 }
 
 .bkgd2{
     background-image: url(./Images/BKGDS/DJKhaledHouse.jpeg);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
     z-index: -100;
-    width: 100vw;
+    width: 250vw;
     height: 100vh;
+    margin-left: -280px;
+    margin-top: -10px;
     display: none;
     animation: slide-in-blurred-top 0.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 }
@@ -46,20 +50,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* #clouds{
-    position: absolute;
-    margin-top: -10%;
-    margin-left: -1%;
-    z-index: -2;
-    width: 102vw; 
-	height: 100vh; 
-	background-image: url(./Images/BKGDS/clouds2.png    );
-	background-position: fixed;
-	background-repeat: repeat-x;
-    animation: slide 70s linear infinite;
-    
-} */
-
 
 
 @keyframes slide {
@@ -83,9 +73,9 @@ audio{
 
 #title{
     position: absolute; 
-    margin-left: 25%;
+    margin-left: 3%;
     margin-top: 3%;
-    width: 50%;
+    width: 90vw;
     animation: bounce-in-top 1.5s both;
 }
 
@@ -127,7 +117,8 @@ audio{
   
 #gameOver{
     width: 100%;
-    margin-top: 20%;
+    margin-top: 60%;
+    margin-left: -2.5%;
     position: absolute;
     z-index: 100;
     animation: blink 1s infinite;
@@ -143,108 +134,108 @@ audio{
 
 
 #spriteReady1{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 10%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 0%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady2{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 26%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 16%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady3{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 41%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 31%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady4{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 57%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 47%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady5{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 73%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 63%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady6{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 10%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 0%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady7{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 26%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 16%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady8{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 41%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 31%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady9{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 57%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 47%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteReady10{
-    width: 60%;
-    margin-top: 17%;
-    margin-left: 73%;
+    width: 160%;
+    margin-top: 67%;
+    margin-left: 63%;
     position: fixed;
     z-index: -1;
 display: none;
 }
 
 #spriteRun{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: auto;
+    width: 35%;
+    margin-top: 121%;
+    margin-left: -40%;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
 }
 
 
 #spriteRun2{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 17%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: -20%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -252,9 +243,9 @@ display: none;
 }
 
 #spriteRun3{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 32%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: -4%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -262,9 +253,9 @@ display: none;
 }
 
 #spriteRun4{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 48%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: 11%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -272,9 +263,9 @@ display: none;
 }
 
 #spriteRun5{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 65%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: 27%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -282,9 +273,9 @@ display: none;
 }
 
 #spriteRun6{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: auto;
+    width: 35%;
+    margin-top: 121%;
+    margin-left: -40%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -294,9 +285,9 @@ display: none;
 
 
 #spriteRun7{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 17%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: -20%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -304,9 +295,9 @@ display: none;
 }
 
 #spriteRun8{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 32%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: -4%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -314,9 +305,9 @@ display: none;
 }
 
 #spriteRun9{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 48%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: 11%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -324,9 +315,9 @@ display: none;
 }
 
 #spriteRun10{
-    width: 13%;
-    margin-top: 35%;
-    margin-left: 65%;
+    width: 35%;
+    margin-top: 114%;
+    margin-left: 27%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -334,18 +325,16 @@ display: none;
 }
 
 #spriteWon{
-    width: 32%;
-    margin-top: 5%;
-    margin-left: 35%;
+    width: 92%;
+    margin-top: 35%;
     position: fixed;
     z-index: 1;
     display: none;
 }
 
 #spriteLose{
-    width: 35%;
-    margin-top: 8%;
-    margin-left: 30%;
+    width: 95%;
+    margin-top: 45%;
     position: fixed;
     z-index: 10;
     display: none;
@@ -361,9 +350,9 @@ display: none;
   }
 
 #djk{
-    width: 20%;
+    width: 60%;
 margin-left: 80%;
-margin-top: 25%;
+margin-top: 85%;
 animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 position: fixed;
 z-index: -2;
@@ -390,7 +379,7 @@ input{
 position: relative;
 margin-top: 5%;
 border-radius: 5px;
-font-size: 30px;
+font-size: 15px;
 text-align: center;
 background-color: rgb(221, 195, 122);
 }
@@ -400,40 +389,37 @@ background-color: rgb(221, 195, 122);
 button{
     width: 50%;
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     border: 2px inset rgb(209, 180, 100);
      background-color: rgba(209, 180, 100, 0.521);
      color: rgb(0, 0, 0);
      text-shadow: 1px 1px 1px rgb(255, 255, 255);
      box-shadow: 1px 1px 1px black;
-     margin: auto;
+     margin: 5px;
+     
 }
 /* button questions */
 .buttonQ{
     border-radius: 10px;
-    border: 5px inset rgb(209, 180, 100);
+    border: 2px inset rgb(209, 180, 100);
     color: rgb(0, 0, 0);
     text-shadow: 1px 1px 1px rgb(250, 250, 250);
-    font-size: 30px;
+    font-size: 15px;
     text-align: center;
     font-family:arial, helvetica, sans-serif; 
-    padding: 10px 10px 10px 10px; 
-    text-decoration:none; 
+    padding: 10px; 
     display: block;
     background-color: rgba(209, 180, 100, 0.9);
-     height: 200px;
-     width: 530px;
-     /* box-shadow: 1px 1px 1px black; */
-     position: absolute;
-     z-index: 1;    
+
+ 
     }
 
 
 
 #rulesButton{
-            margin-top: 22%;
+            margin-top: 35%;
             margin-left: 6.5%;
-            width: 8%;
+            width: 18%;
             height: 3%;    
             display: block;     
 }
@@ -447,7 +433,7 @@ button{
 }
 /* one of those buttons that cant be deleted all will throw everything off even tho it doesnt exist in my html */
 .button{
-    border:10px inset #D1B464;
+    border: 10px inset #D1B464;
     border-radius: 10px;
     color: rgb(255, 255, 255);
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
@@ -471,9 +457,9 @@ button{
         display: block;
         justify-content: center;
         padding: 10px;
-        width: 38%;
-        margin-top: 15%;
-        margin-left: 35%;
+        width: 100vw;
+        margin-top: 40%;
+        margin-left: -6%;
         position: fixed;
         z-index: 1;
         /* animation: fade-in 10s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
@@ -483,9 +469,9 @@ button{
    
 
     .optButton{
-        border: 5px inset #D1B464;
+        border: 2px inset #D1B464;
         border-radius: 10px;
-        font-size: calc(.3em + 1vw) ;
+        font-size: calc(.6em + 1vw) ;
         text-align: center;
         justify-content: center;        
         color: rgb(255, 255, 255);
@@ -509,22 +495,23 @@ button{
 
 i{
     color: rgb(63, 205, 63);
-    font-size: 60px;
+    font-size: 30px;
     text-shadow: 2px 2px 12px black;
+    padding: 5px;
 }
 i:hover{
     text-shadow: 2px 2px 8px rgb(155, 255, 149);
 /* color: rgb(89, 255, 17); */
 }
         #start{
-            margin-top: 18%;
-            margin-left: 43%;
-            width: 8rem;
-            height: 7rem;         
+            margin-top: 40%;
+            margin-left: 35%;
+            width: 5rem;
+            height: 4rem;         
 	        animation: heartbeat 2.5s ease-in-out infinite both;
             border-radius: 100px;
-            padding: 30px 10px 0px 10px;
-            font-size: 30px;
+            padding: 20px 3px 0px 3px;
+            font-size: 15px;
             text-shadow: 2px 2px 2px black;
             position: absolute;
          }
@@ -535,15 +522,16 @@ i:hover{
         }
 
          #round2{
-            margin-top: 13%;
-            margin-left: 43%;
-            width: 8rem;
-            height: 7rem;         
+            margin-top: 40%;
+            margin-left: 35%;
+            width: 5rem;
+            height: 4rem;         
 	        animation: heartbeat 2.5s ease-in-out infinite both;
             border-radius: 100px;
-            padding: 30px 10px 0px 10px;
-            font-size: 30px;
+            padding: 20px 3px 0px 3px;
+            font-size: 15px;
             text-shadow: 2px 2px 2px black;
+            position: absolute;
             display: none;
             
          }
@@ -597,16 +585,16 @@ i:hover{
           }
     
         #lifeCountID{
-            margin-top: 12%;
+            margin-top: 20%;
             margin-left: 5%;
-            width: calc(6em + 1vw);
+            width: calc(7em + 1vw);
             height: calc(2.5em + 1vh);
         }
      
 
     #scoreBox{
-        margin-top: 12%;
-        margin-left: 82%;
+        margin-top: 20%;
+        margin-left: 75%;
         background-repeat: no-repeat;
         position: fixed;
         z-index: 1;
@@ -637,9 +625,10 @@ li{
 }
 
 #confetti{
-    position: absolute;
+    position: fixed;
     z-index: 10;
-    width: 105%;
+    width: 110vh;
+    height: 100vh;
     display: none;
 }
 
@@ -660,7 +649,7 @@ li{
 
 
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
     .buttonBox {
         margin-top: 5%;
         margin-left: -5%;
@@ -668,9 +657,9 @@ li{
     }
    .buttonQ{
     margin-top: 103%;
-    /* height: 70px;
+    height: 70px;
     width: 160px;
-    font-size: 15px; */
+    font-size: 15px; 
     }
 
     #start{
@@ -718,6 +707,4 @@ li{
 
 }
 
-cursor-pointer {
-    cursor: url(./Images/ChracterStill.png), auto;
-}
+ */

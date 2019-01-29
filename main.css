@@ -226,7 +226,7 @@ display: none;
 #spriteRun{
     width: 35%;
     margin-top: 121%;
-    margin-left: -40%;
+    margin-left: -20%;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 
 }
@@ -235,7 +235,7 @@ display: none;
 #spriteRun2{
     width: 35%;
     margin-top: 114%;
-    margin-left: -20%;
+    margin-left: 0%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -245,7 +245,7 @@ display: none;
 #spriteRun3{
     width: 35%;
     margin-top: 114%;
-    margin-left: -4%;
+    margin-left: 14%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -255,7 +255,7 @@ display: none;
 #spriteRun4{
     width: 35%;
     margin-top: 114%;
-    margin-left: 11%;
+    margin-left: 31%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -265,7 +265,7 @@ display: none;
 #spriteRun5{
     width: 35%;
     margin-top: 114%;
-    margin-left: 27%;
+    margin-left: 47%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -275,7 +275,7 @@ display: none;
 #spriteRun6{
     width: 35%;
     margin-top: 114%;
-    margin-left: -40%;
+    margin-left: -20%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -287,7 +287,7 @@ display: none;
 #spriteRun7{
     width: 35%;
     margin-top: 114%;
-    margin-left: -20%;
+    margin-left: 0%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -297,7 +297,7 @@ display: none;
 #spriteRun8{
     width: 35%;
     margin-top: 114%;
-    margin-left: -4%;
+    margin-left: 14%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -307,7 +307,7 @@ display: none;
 #spriteRun9{
     width: 35%;
     margin-top: 114%;
-    margin-left: 11%;
+    margin-left: 31%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -317,7 +317,7 @@ display: none;
 #spriteRun10{
     width: 35%;
     margin-top: 114%;
-    margin-left: 27%;
+    margin-left: 47%;
     position: fixed;
     z-index: 1;
     animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -345,7 +345,7 @@ display: none;
         transform: translateX(0);
     }
     100% {
-        transform: translateX(100px);
+        transform: translateX(30px);
     }
   }
 
@@ -458,7 +458,7 @@ button{
         justify-content: center;
         padding: 10px;
         width: 101vw;
-        margin-top: 40%;
+        margin-top: 41%;
         margin-left: -5%;
         position: fixed;
         z-index: 1;
@@ -475,10 +475,9 @@ button{
         text-align: center;
         justify-content: center;        
         color: rgb(255, 255, 255);
-        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
         font-family:arial, helvetica, sans-serif; 
         text-decoration:none; 
-        /* text-shadow: -1px -1px 0 rgba(0,0,0,0.3); */
          background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
          radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);         
          height: 75px;
@@ -598,7 +597,7 @@ i:hover{
         background-repeat: no-repeat;
         position: fixed;
         z-index: 1;
-        width: calc(3em + 1vw);
+        width: calc(4em + 1vw);
         height: calc(2em + 1vh);
 
     }
@@ -650,24 +649,17 @@ li{
 
 
 @media only screen and (width: 375px) and (height: 812px) {
-    .buttonBox {
-     
-    }
 
-   .buttonQ{
- 
-    }
     .bkgd2{
         margin-left: -450px;
     }
 
-    #start{
-
-    }
-
-    #round2{
-
-    }
+.buttonBox{
+    margin-top: 60%;
+}
+.buttonQ, input{
+    font-size: 20px;
+}
     #spriteWon{
         margin-top: 70%;
     }
@@ -680,108 +672,125 @@ li{
 
     }
 
-    #spriteReady1{
+    #spriteReady1, #spriteReady2, #spriteReady3, #spriteReady4, #spriteReady5, #spriteReady6, #spriteReady7, #spriteReady8, #spriteReady9, #spriteReady10 {
         margin-top: 107%;
 
     }
     
-    #spriteReady2{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady3{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady4{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady5{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady6{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady7{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady8{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady9{
-        margin-top: 107%;
-
-    }
-    
-    #spriteReady10{
-        margin-top: 107%;
-
-    }
     
     #spriteRun{
         margin-top: 161%;
-
     }
     
     
-    #spriteRun2{
+    #spriteRun2, #spriteRun3, #spriteRun4, #spriteRun5, #spriteRun6, #spriteRun7, #spriteRun8, #spriteRun9, #spriteRun10 {
         margin-top: 154%;
 
-    }
-    
-    #spriteRun3{
-        margin-top: 154%;
+    }  
 
-    }
-    
-    #spriteRun4{
-        margin-top: 154%;
-
-    }
-    
-    #spriteRun5{
-        margin-top: 154%;
-
-    }
-    
-    #spriteRun6{
-        margin-top: 154%;
-
-    }
-    
-    
-    #spriteRun7{
-        margin-top: 154%;
- 
-    }
-    
-    #spriteRun8{
-        margin-top: 154%;
-
-    }
-    
-    #spriteRun9{
-        margin-top: 154%;
-
-    }
-    
-    #spriteRun10{
-        margin-top: 154%;
-
-    }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    .buttonBox {
+     margin-left: -3%;
+     margin-top: 40%;
+    }
+#rulesButton{
+    margin-top: 34.5%;
+}
+#lifeCountID{
+    margin-left: 10%;
+}
+#scoreBox{
+    margin-left: 70%;
+}
+
+.optButton{
+    font-size: 25px;
+}
+   .buttonQ, input, button{
+ font-size: 25px;
+    }
+    .bkgd2{
+        margin-left: -450px;
+    }
+
+    #start, #round2{
+        margin-top: 40%;
+        margin-left: 40%;
+        width: 7rem;
+        height: 6rem; 
+        font-size: 25px;
+        padding-top: 25px
+
+    }
+    i{
+        font-size: 45px;
+    }
 
 
+    #spriteWon{
+        margin-top: 20%;
+        margin-left: 15%;
+        width: 75%;
+    }
+    #spriteLose{
+        margin-top: 30%;
+        margin-left: 15%;
+        width: 75%;
+    }
+
+    #djk{
+    margin-top: 60%;
+    margin-left: 65%;
+
+    }
+
+    #spriteReady1, #spriteReady2, #spriteReady3, #spriteReady4, #spriteReady5, #spriteReady6, #spriteReady7, #spriteReady8, #spriteReady9, #spriteReady10 {
+        margin-top: 40%;
+
+    }
+    
+    
+    #spriteRun{
+        margin-top: 89%;
+        margin-left: -10%;
+
+    }
+    
+    
+    #spriteRun2, #spriteRun3, #spriteRun4, #spriteRun5, #spriteRun6, #spriteRun7, #spriteRun8, #spriteRun9, #spriteRun10 {
+        margin-top: 87%;
+    }
+    
+   
+    }
+
+
+    @media only screen and (width: 1024px) and (height: 1366px) {
+
+    .buttonBox{
+        padding: 10px 20px 10px 20px;
+    }
+
+    .optButton{
+        font-size: 35px;
+    }
+
+    .buttonQ, input, button{
+        font-size: 40px;
+    }
+    #start, #round2{
+        margin-top: 40%;
+        margin-left: 40%;
+        width: 9rem;
+        height: 7rem; 
+        font-size: 30px;
+        padding-top: 35px
+
+    }
+    i{
+        font-size: 55px;
+    }
+   
+    }

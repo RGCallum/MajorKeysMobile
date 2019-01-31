@@ -684,7 +684,9 @@ li{
     .bkgd2{
         margin-left: -450px;
     }
-
+.bkgd1{
+    margin-left: -500px;
+}
 .buttonBox{
     margin-top: 60%;
 }
@@ -702,6 +704,11 @@ li{
     margin-top: 130%;
 
     }
+
+    #djk2{
+        margin-top: 130%;
+    
+        }
 
     #spriteReady1, #spriteReady2, #spriteReady3, #spriteReady4, #spriteReady5, #spriteReady6, #spriteReady7, #spriteReady8, #spriteReady9, #spriteReady10 {
         margin-top: 107%;
@@ -780,7 +787,11 @@ font-size: 30px;
     margin-left: 65%;
 
     }
-
+    #djk2{
+        margin-top: 60%;
+        margin-left: 65%;
+    
+        }
     #spriteReady1, #spriteReady2, #spriteReady3, #spriteReady4, #spriteReady5, #spriteReady6, #spriteReady7, #spriteReady8, #spriteReady9, #spriteReady10 {
         margin-top: 40%;
 

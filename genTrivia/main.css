@@ -414,7 +414,7 @@ background-color: rgb(221, 195, 122);
     z-index: 1000;
     position: absolute;
     margin-left: 33%;
-    margin-top: 50%;
+    margin-top: 55%;
     background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);     
     border: 2px inset #D1B464;
@@ -423,7 +423,7 @@ background-color: rgb(221, 195, 122);
     text-align: center;
     }
     a:hover, .links2:hover {
-        color: green;
+        color: rgb(226, 186, 73);
     }
 
     a{

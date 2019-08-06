@@ -11,6 +11,28 @@
     margin-left: -280px;
     margin-top: -10px;
 }
+a {
+    color: white;
+    text-shadow: 2px 2px 3px black;
+    padding: 30px;
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+a:hover, .links:hover {
+    color: rgb(226, 186, 73);
+}
+
+.links {
+    background-color: rgba(0, 0, 0, 0.741);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    margin-left: -5%;
+    margin-top: -10%;
+    text-align: center;
+    padding-top: 160px;
+}
 
 .bkgd2{
     background-image: url(./Images/BKGDS/DJKhaledHouse.jpeg);

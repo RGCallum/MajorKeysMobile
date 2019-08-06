@@ -87,6 +87,7 @@ submitQ1.addEventListener('click', function () {
         document.querySelector('#a1').innerHTML = "✅ Toronto";
         document.querySelector('#a1').style.color = "green";
 
+
         document.querySelector('.submitQ1').style.display = 'none';
         document.querySelector('#next1').style.display = 'block';
 

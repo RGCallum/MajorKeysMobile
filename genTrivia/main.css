@@ -1,26 +1,26 @@
 
 .bkgd1{
-    background-image: url(../Images/BKGDS/sesame3.jpg);
+    background-image: url("../Images/BKGDS/20252.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
     z-index: -100;
     width: 250vw;
     height: 100vh;
-    margin-left: -280px;
+    margin-left: -410px;
     margin-top: -10px;
 }
 
 .bkgd2{
-    background-image: url(../Images/BKGDS/DJKhaledHouse.jpeg);
+    background-image: url("../Images/BKGDS/castle2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     position: fixed;
     z-index: -100;
-    width: 250vw;
-    height: 100vh;
-    margin-left: -350px;
-    margin-top: -10px;
+    width: 200vw;
+    height: 105vh;
+    margin-left: -450px;
+    margin-top: -50px;
     display: none;
     animation: bounce-in-top 1.1s both;
 }
@@ -478,7 +478,6 @@ button{
      box-shadow: 1px 1px 1px black;
      
     }
-
 
     .buttonBox{
         display: block;

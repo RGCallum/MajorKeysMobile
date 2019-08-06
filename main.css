@@ -15,9 +15,10 @@ a {
     color: white;
     text-shadow: 2px 2px 3px black;
     padding: 30px;
-    font-size: 3vw;
+    font-size: 6vw;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
 a:hover, .links:hover {
     color: rgb(226, 186, 73);
@@ -32,6 +33,7 @@ a:hover, .links:hover {
     margin-top: -10%;
     text-align: center;
     padding-top: 160px;
+    
 }
 
 .bkgd2{

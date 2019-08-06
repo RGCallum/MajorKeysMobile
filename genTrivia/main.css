@@ -19,7 +19,7 @@
     z-index: -100;
     width: 200vw;
     height: 105vh;
-    margin-left: -450px;
+    margin-left: -300px;
     margin-top: -50px;
     display: none;
     animation: bounce-in-top 1.1s both;
@@ -413,7 +413,7 @@ background-color: rgb(221, 195, 122);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     z-index: 1000;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 33%;
     margin-top: 50%;
     background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);     

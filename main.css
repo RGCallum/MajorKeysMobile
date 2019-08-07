@@ -26,7 +26,7 @@ a {
 
 }
 
-a:hover, .links:hover {
+i, a:hover, .links:hover {
     color: rgb(226, 186, 73);
 }
 

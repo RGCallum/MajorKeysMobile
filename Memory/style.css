@@ -1,15 +1,25 @@
 *, *::before, *::after {
     box-sizing: border-box;
 }
+i {
+    color: rgb(63, 205, 63);
+    font-size: 30px !important;
+    text-shadow: 2px 2px 12px black;
+}
+
+i:hover {
+    text-shadow: 2px 2px 8px rgb(155, 255, 149);
+    /* color: rgb(89, 255, 17); */
+}
 .links2{
     display: none;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     z-index: 1000;
     position: absolute;
     margin-left: 50%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     background-image: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
     radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);     
     border: 2px inset #D1B464;
@@ -234,10 +244,10 @@ i:hover {
     margin-left: 45%;
     display: block;
     width: 6rem;
-    height: 4rem;
+    height: 6rem;
     animation: heartbeat 2.5s ease-in-out infinite both;
     border-radius: 100px;
-    padding: 10px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
     font-size: 15px;
     text-shadow: 2px 2px 2px black;
     position: absolute;
@@ -254,10 +264,10 @@ i:hover {
     margin-left: 45%;
     position: absolute;
     width: 6rem;
-    height: 4rem;
+    height: 6rem;
     /* animation: delaybtn 11s; */
     border-radius: 100px;
-    padding: 10px 10px 0px 10px;
+    padding: 20px 10px 0px 10px;
     font-size: 15px;
     text-shadow: 2px 2px 2px black;
     display: none;
@@ -281,14 +291,14 @@ i:hover {
 }
 
 #restart {
-    margin-top: 5%;
+    /* margin-top: -5%; */
     margin-left: 25%;
     animation: delaybtn 11s;
     width: 6rem;
-    height: 5rem;
+    height: 6rem;
     animation: heartbeat 2.5s ease-in-out infinite both;
     border-radius: 100px;
-    padding: 10px 3px 0px 3px;
+    padding: 15px 3px 0px 3px;
     font-size: 15px;
     text-shadow: 2px 2px 2px black;
     position: absolute;

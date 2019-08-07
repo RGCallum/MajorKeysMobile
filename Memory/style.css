@@ -45,7 +45,8 @@
     background-size: cover;
     background-repeat-y: no-repeat;
     animation: slide2 190s linear infinite;
-    height: 900px;
+    height: 650px;
+    background-color: rgb(114, 68, 37);
     
 }
 @keyframes slide2 {

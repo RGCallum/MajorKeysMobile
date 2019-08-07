@@ -3,7 +3,7 @@
 }
 .muteBtn{
     width: 100px;
-    position: absolute;
+    /* position: absolute; */
 }
 .bkgd1{
     background-image: url("../Images/BKGDS/20252.jpg");

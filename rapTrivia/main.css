@@ -1,3 +1,11 @@
+
+#unmute{
+    display: none;
+}
+.muteBtn{
+    width: 100px;
+    /* position: absolute; */
+}
 .links2{
 display: none;
 color: white;

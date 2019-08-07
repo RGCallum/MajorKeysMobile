@@ -1,4 +1,10 @@
-
+#unmute{
+    display: none;
+}
+.muteBtn{
+    width: 100px;
+    position: absolute;
+}
 .bkgd1{
     background-image: url("../Images/BKGDS/20252.jpg");
     background-size: cover;

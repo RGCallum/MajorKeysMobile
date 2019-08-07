@@ -26,7 +26,19 @@
         text-decoration: none;
         color: rgb(255, 255, 255);
     }
-    
+    #unmute{
+        display: none;
+        border-radius: 10px;
+       border: 2px inset rgb(209, 180, 100);
+       background-color: rgba(209, 180, 100, 0.521);
+      
+    }
+    #mute{
+       border-radius: 10px;
+       border: 2px inset rgb(209, 180, 100);
+       background-color: rgba(209, 180, 100, 0.521);
+      
+   }    
 .bkgd {
     /* margin-left: 20px 0; */
     background-image: url('img/wallpaper2you_451343.png');

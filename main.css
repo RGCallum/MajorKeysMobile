@@ -25,9 +25,14 @@ a {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-
-i, a:hover, .links:hover {
+i{
     color: rgb(226, 186, 73);
+
+}
+i:hover, a:hover, .links:hover {
+    /* color: rgb(225, 219, 201); */
+
+    text-shadow: 1px 1px 10px;
 }
 
 .links {

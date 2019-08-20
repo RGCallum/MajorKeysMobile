@@ -92,7 +92,7 @@ let lives = 0;
 
 function showRules() {
 
-    swal("MAJOR KEYS, \n A DJ Khaled inspired hip-hop trivia game for the 'true' Hip Hop Head. The object of Major Keys is to get DJ Khaled's 'Keys' of wisdom by answering trivia questions to advance your character closer to his Major Key. If your answer is correct, you collect a key, hear one of DJ Khaled's motivational words (keys) of wisdom, and run closer to him. Each correct word is worth 1000 points and 1 key. Answer incorrectly, and you lose keys, points and DJ Khaled roasts you. To win the game, you need to have at least 3 keys by the end of the game. Score less than 3 keys by the end of the game and you lose! Scoring below -3000 at any point in the game and its GAME OVER!"
+    swal("MAJOR KEYS, \n A DJ Khaled inspired trivia game. The object of Major Keys is to get DJ Khaled's 'Keys' of wisdom by answering trivia questions to advance your character closer to his Major Key. If your answer is correct, you collect a key, hear one of DJ Khaled's motivational words (keys) of wisdom, and run closer to him. Each correct word is worth 1000 points and 1 key. Answer incorrectly, and you lose keys, points and DJ Khaled roasts you. To win the game, you need to have at least 3 keys by the end of the game. Score less than 3 keys by the end of the game and you lose! Scoring below -3000 at any point in the game and its GAME OVER!"
         , {
             buttons: ["👍🏾", true],
         });

@@ -20,7 +20,9 @@ ul{
 a {
     color: white;
     text-shadow: 2px 2px 3px black;
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 700;
+
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -40,11 +42,13 @@ i:hover, a:hover, .links:hover {
     background-position: cover;
     width: 100vw;
     height: 100vh;
-    /* position: absolute; */
+    position: fixed;
     margin-left: -20%;
     margin-top: -5%;
     text-align: center;
     padding: 160px;
+    z-index: -10;
+
 }
 
 
@@ -61,6 +65,8 @@ body {
     margin-left: 15vw;
     margin-top: 5%;
     width: 70%;
+    z-index: 1000;
+
 }
 
 @keyframes bounce-in-top {
